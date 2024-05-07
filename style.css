@@ -1,0 +1,206 @@
+html {
+    background-color: #FEFEF4;
+}
+div {
+    margin: 20px;
+}
+header {
+    background-image: url("etusivu_taustakuva.jpg");
+    background-position: center;
+    background-size: cover;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1 {
+    font-size: 46px;
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 800;
+    font-style: normal;
+    color: black;
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+}
+.ohje h1 {
+  color: #FEFEF4;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+nav ul li {
+    margin-right: 10px; 
+  }
+nav ul li:last-child {
+    margin-right: 0;
+  }
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    background-color: #CCD5AE;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #FEFEF4;
+    font-family: BioRhyme;
+    margin-bottom: 100px; 
+    position: static;
+  }
+nav ul li a:hover {
+    background-color: #E9EDC9;
+    color: black;
+  }
+nav ul li a:active {
+    background-color: #E9EDC9;
+    color: black;
+  }
+section {
+    background-color: #E9EDC9;
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    margin: 25px
+}
+section h2 {
+  font-family: BioRhyme;
+  padding-left: 20px;
+}
+section .etusivu {
+  padding-left: 40px;
+  max-width: 400px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0px;
+}
+
+.column {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  margin-top: 10px;
+}
+.resepti a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: BioRhyme;
+}
+.resepti a:hover {
+  color:hsl(109, 17%, 40%);
+}
+
+@media only screen and (max-width: 700px) {
+    section {
+       max-width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 12px;
+   }
+   nav {
+       max-width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 10px;
+   }
+    nav ul li a {
+    padding: 3px 7px 3px 7px;
+  }
+    nav ul li {
+    margin-right: 3px;
+  }
+   header h1 {
+       max-width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 34px;
+   }
+   header {
+       max-width: 95%;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+@media only screen and (min-width: 700px) {
+    section {
+       max-width: 85%;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 14px;
+   }
+   .column {
+    width: calc(40% - 10px);
+    }
+   nav {
+       max-width: 85%;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 16px;
+   }
+   nav ul li a {
+    padding: 5px 10px 5px 10px;
+  }
+  nav ul li {
+    margin-right: 5px;
+  }
+   header h1 {
+       max-width: 85%;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 46px;
+   }
+   header {
+       max-width: 87%;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+@media only screen and (min-width: 1025px) {
+    section {
+        max-width: 62%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+    }
+    .column {
+      width: calc(40% - 10px);
+      }
+    nav {
+        max-width: 62%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px;
+    }
+    nav ul li a {
+        padding: 5px 10px 5px 10px;
+      }
+        nav ul li {
+        margin-right: 5px;
+      }
+    header h1 {
+        max-width: 62%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 53px;
+    }
+    header {
+        max-width: 63.7%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
