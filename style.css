@@ -105,25 +105,63 @@ section .etusivu {
   color:hsl(109, 17%, 40%);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 450px) {
+  section {
+       max-width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 9px;
+   }
+   nav {
+       
+       margin-left: 25px;
+       margin-right: auto;
+       font-size: 12px;
+   }
+    nav ul li a {
+    padding: 5px 9px 5px 9px;
+  }
+    nav ul li {
+    margin-right:5px;
+  }
+   header h1 {
+       max-width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+       font-size: 34px;
+   }
+   header {
+       max-width: 95%;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
+
+@media only screen and (min-width: 450px) {
     section {
        max-width: 90%;
        margin-left: auto;
        margin-right: auto;
-       font-size: 12px;
+       font-size: 9px;
    }
    nav {
-       max-width: 100%;
-       margin-left: auto;
+       max-width: calc(40%-20px);
+       margin-left: 60px;
        margin-right: auto;
-       font-size: 10px;
+       font-size: 12px;
    }
     nav ul li a {
-    padding: 3px 7px 3px 7px;
+    padding: 7px 12px 7px 12px;
   }
     nav ul li {
-    margin-right: 3px;
+    margin-right:5px;
   }
+  .column {
+    width: calc(40% - 10px);
+    }
+   .resepti a {
+    font-size: 16px;;
+   } 
    header h1 {
        max-width: 90%;
        margin-left: auto;
